@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>caluclations</title>
+</head>
+<body>
+    your choice is:{{choice}}<br>
+    A value is:{{a}}<br>
+    B value is:{{b}}<br>
+    {%if choice == "add" %}
+        addition of {{a}} and {{b}} is:{{ad}}
+    {%elif choice == "sub"%}
+        substraction of {{a}} and {{b}} is:{{s}}
+    {%elif choice == "mul"%}
+        multiplication of {{a}} and {{b}} is:{{m}}
+    {%elif choice == "divi"%}
+        divistion of {{a}} and {{b}} is:{{d}}
+    {%elif choice == "cal"%}
+        addition of {{a}} and {{b}} is:{{ad}}<br>
+        substraction of {{a}} and {{b}} is:{{s}}<br>
+        multilplication of {{a}} and {{b}} is:{{m}}<br>
+        divistion of {{a}} and {{b}} is:{{d}}<br>
+    {%else%}
+        enter valid choice
+    {%endif%}
+
+</body>
+</html>

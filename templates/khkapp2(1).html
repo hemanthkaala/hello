@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jinja oprational tags</title>
+</head>
+<body>
+    {%if a > b%}
+        <h1>if block stmts</h1>
+        <h1>{{a}} is greater then {{b}} and{{c}}</h1>
+        {{a}}
+    {%elif a > c%}
+        <h1>elif  block</h1>
+        <h1>{{b}} is greater then {{a}} and{{c}}
+        </h1>
+        {{b}}
+    {%else%}
+        <h1>else block</h1>
+        <h1>{{c}} is greater then {{a}} and{{b}}</h1>
+        {{c}}
+    {%endif%}
+    
+</body>
+</html>
